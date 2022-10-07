@@ -47,7 +47,7 @@ Além disso, focamos na construção de uma aplicação utilizando os seguintes 
 - **Página Inicial**:
 
 <div align="center" >
-  <img src="https://i.imgur.com/6d62GGG.png" width="250">____<img src="https://i.imgur.com/jMitFaE.gif" width="220">____<img src="https://i.imgur.com/cvZVLEP.png" width="250">
+  <img src="https://i.imgur.com/6d62GGG.png" width="220">____<img src="https://i.imgur.com/cvZVLEP.png" width="220">
 </div>
 
 ---
