@@ -4,7 +4,7 @@ O projeto **GitHubExplorer** é um aplicativo mobile na qual tem o intuito de fa
 
 ---
 
-<h2 align="center">Rentx</h2>
+<h2 align="center">GitHubExplorer</h2>
 <h3 align="center">
   <a href="#information_source-sobre">Sobre</a>&nbsp;|&nbsp;
   <a href="#interrobang-motivo">Motivo</a>&nbsp;|&nbsp;
@@ -17,7 +17,7 @@ O projeto **GitHubExplorer** é um aplicativo mobile na qual tem o intuito de fa
 
 </div>
 
-- [**Link do vídeo completo sobre o projeto**](https://i.imgur.com/OFxMvyx.gif)
+- [**Link do vídeo completo sobre o projeto**](https://i.imgur.com/jMitFaE.gif)
 
 ---
 
