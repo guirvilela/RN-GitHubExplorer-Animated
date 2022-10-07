@@ -97,7 +97,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Expo-Vector-Icons](https://docs.expo.dev/guides/icons/)
 - [GitHub API](https://docs.github.com/en/rest/overview/resources-in-the-rest-api)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
-- [React-Native-Calendars](https://github.com/wix/react-native-calendars)
 - [FlatList](https://reactnative.dev/docs/flatlist)
 - [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
 - [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
