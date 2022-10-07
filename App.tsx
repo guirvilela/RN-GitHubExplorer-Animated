@@ -1,17 +1,14 @@
-import React, { useCallback, useEffect, useState } from 'react';
-import { ThemeProvider } from 'styled-components/native';
-import {
-  Roboto_400Regular,
-  Roboto_700Bold
-} from '@expo-google-fonts/roboto';
-import { StatusBar, View } from 'react-native';
-import * as SplashScreen from 'expo-splash-screen';
-import * as Font from 'expo-font';
+import React, { useCallback, useEffect, useState } from "react";
+import { ThemeProvider } from "styled-components/native";
+import { Roboto_400Regular, Roboto_700Bold } from "@expo-google-fonts/roboto";
+import { StatusBar, View } from "react-native";
+import * as SplashScreen from "expo-splash-screen";
+import * as Font from "expo-font";
 
-import { Routes } from './src/routes';
-import { RepositoriesProvider } from './src/contexts/RepositoriesProvider';
+import { Routes } from "./src/routes";
+import { RepositoriesProvider } from "./src/contexts/RepositoriesProvider";
 
-import theme from './src/global/styles/theme';
+import theme from "./src/global/styles/theme";
 
 export default function App() {
   const [appIsReady, setAppIsReady] = useState(false);
@@ -22,7 +19,7 @@ export default function App() {
         await SplashScreen.preventAutoHideAsync();
         await Font.loadAsync({
           Roboto_400Regular,
-    Roboto_700Bold
+          Roboto_700Bold,
         });
       } catch (e) {
         console.warn(e);
@@ -32,7 +29,7 @@ export default function App() {
     }
 
     prepare();
-  }, [])
+  }, []);
 
   const onLayoutRootView = useCallback(async () => {
     if (appIsReady) {
@@ -45,11 +42,11 @@ export default function App() {
   }
 
   return (
-    <View
-      onLayout={onLayoutRootView}
-      style={{ flex: 1 }}
-    >
-      <StatusBar backgroundColor={theme.colors.gray_50} barStyle="dark-content" />
+    <View onLayout={onLayoutRootView} style={{ flex: 1 }}>
+      <StatusBar
+        backgroundColor={theme.colors.gray_50}
+        barStyle="dark-content"
+      />
 
       <RepositoriesProvider>
         <ThemeProvider theme={theme}>
@@ -57,5 +54,5 @@ export default function App() {
         </ThemeProvider>
       </RepositoriesProvider>
     </View>
-  )
+  );
 }
